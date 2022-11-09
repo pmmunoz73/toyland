@@ -1,0 +1,13 @@
+{
+    "item": [
+        {
+            "_id": "635a7f4854ce91b330493679",
+            "producto": "JUEGO MOTRICIDAD FINA",
+            "precio": 89000,
+            "imagen": "./images/productos/Juego1.png",
+            "inventario": 40,
+            "__v": 0
+        }
+      
+    ]
+}
