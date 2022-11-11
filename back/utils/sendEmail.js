@@ -10,7 +10,7 @@ const sendEmail = async options =>{
         }
       });
     const mensaje={
-        from: "VetyShop Store <tuCorreoMicrosoft>",
+        from: "Toyland <tuCorreoMicrosoft>",
         to: options.email,
         subject: options.subject,
         text: options.mensaje

@@ -14,20 +14,21 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className='col-12 col-md-6 mt-2 mt-md-0'>
+                <div className='col-12 col-md-4 mt-2 mt-md-0'>
                  {/*Aqui va buscar*/}
                  <Search />
                 </div>
+                {/*Boton inicio sesión*/}
+                <Link to="/login" className='btn ml-4' id="login_btn">Bienvenid@<br/>Iniciar Sesión</Link>
                 <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
                     <div className="ml-4 dropdown d-inline">
                         <Link to="#!" className="btn dropdown-toggle text-white mr-4" type="button"
                             id="dropDownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span>Panel de Control</span></Link>
+                            <span>Menú</span></Link>
                         <div className='dropdown-menu' aria-labelledby='dropDownMenu'>
-                            <Link className="dropdown-item" to="/dashboard">Adm. Productos</Link>
-                            <Link className="dropdown-item" to="/">Ventas</Link>
+                            <Link className="dropdown-item" to="/dashboard">General</Link>
                             <Link className="dropdown-item" to="/">Mi cuenta</Link>
-                            <Link className="dropdown-item" to="/">Cerrar Sesion</Link>
+                            <Link className="dropdown-item" to="/login">Cerrar Sesion</Link>
                         </div>
                     </div>
 
